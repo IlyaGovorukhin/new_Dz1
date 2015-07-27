@@ -1,0 +1,7 @@
+{
+  "name": "Dz_1_IlyaGovor",
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
+    "gulp": "^3.9.0"
+  }
+}
