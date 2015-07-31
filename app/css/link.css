@@ -1,0 +1,154 @@
+
+.mylink {
+	float: right;
+	width: 650px;
+	height: 840px;
+	background: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 26px;
+	overflow: hidden;
+}
+
+.mylink .mylink_header{
+	height: 120px;
+	background: #48cbe8;
+	border-bottom: 17px solid #67dffa;
+	margin-bottom: 50px;
+	position: relative;
+	
+
+
+}
+
+ .mylink_header .mylink_header_p {
+	position: absolute;
+	width: 540px;
+	color: #f9fafb;
+	font-size: 22px;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: -0.1em; 
+    text-align: center;
+
+
+}
+
+.mylink_body .mylink_date {
+	margin: 0 124px;
+	margin-bottom: 20px;
+	
+}
+
+.mylink_date .mylink_name1 {
+ float: left;
+}
+
+
+
+.mylink_date  .mylink_name2 {
+	float: right;
+}
+
+.mylink_p {
+	
+	font-size: 22px;
+	color: #959aa8;
+	margin: 0;
+	padding: 0;
+}
+
+
+.mylink_input {
+	width: 190px;
+	height: 40px;
+	border: 1px solid #48cbe8;
+	border-radius: 3px;
+}
+
+.mylink_input1 {
+	width: 400px;
+	height: 210px;
+	border: 1px solid #48cbe8;
+	border-radius: 3px;
+}
+
+
+.mylink_img {
+	width: 190px;
+	height: 80px;
+	background: url(../img/code.png) 50% 50% no-repeat;
+	border: 1px solid #48cbe8;
+	float: left;
+	border-radius: 3px;
+}
+
+.mylink_input2 {
+	margin-top: 20px;
+    width: 190px;
+	height: 30px;
+	border: 1px solid #48cbe8;
+	border-radius: 3px;
+	float: right;
+}
+
+
+.button1 {
+   float: left;
+   cursor: pointer;
+   background: #48cbe8;
+   color: #f9fafb;
+   width: 137px;
+   height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    border-bottom: 3px solid #3ba8c0;
+    
+}
+
+.button1:active {
+	background: #3ba8c0;
+	margin-top: 2px;
+	height: 28px;
+}
+
+
+
+
+
+.button2 {
+   float: right;
+   cursor: pointer;	
+   color: #f9fafb;
+   background: #959aa8;
+  width: 137px;
+   height: 30px;
+    font-size: 20px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+    border-bottom: 3px solid #687b8f;
+   
+}
+
+.button2:active {
+	background: #687b8f;
+	margin-top: 2px;
+	height: 28px;
+}
+
+
+
+
+.clearfix:before,
+.clearfix:after {
+ content: " "; 
+ display: table;
+}
+.clearfix:after {
+  clear: both; 
+}
+
+

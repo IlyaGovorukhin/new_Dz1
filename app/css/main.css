@@ -1,0 +1,483 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background: url(../img/pattern.png) repeat ;
+	font: normal 1em 'fira_sanslight';
+	color: #4a545d;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/*header*/
+
+.container-big {
+	max-width: 1200px;
+	min-width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+
+
+
+
+.page-header {
+	height: 119px;
+	background: #eff3f7;
+	position: relative;
+	margin-bottom: 39px;
+}
+
+.page-header .header-logo-text {
+	position: absolute;
+	left: -99999px;
+}
+
+
+#poster {
+	width: 250px;
+	height: 100px;
+ background: url(../img/logo.jpg) center no-repeat;
+ background-size: 70%;
+ margin-top: 20px;
+ float: left;
+ cursor: pointer; 
+}
+
+.buttons li {
+	 margin-top: 38px;
+	margin-left: 24px;
+	background: url(../img/spritesheet.png) -5px -553px no-repeat;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	cursor: pointer; 
+	float: right;
+	position: relative;
+
+}
+
+.buttons li a {
+position: absolute;
+width: 50px;
+height: 50px;
+background: #fff;
+border-radius: 50% 50%;
+opacity: 0;
+
+}
+
+.buttons .buttons4:hover {
+
+	background-position: -5px -610px;
+
+}
+.buttons .buttons3 {
+
+	background-position: -5px -439px;
+}
+
+.buttons .buttons3:hover {
+
+	background-position: -5px -496px;
+}
+
+.buttons .buttons2 {
+
+	background-position: -5px -124px;
+}
+
+.buttons .buttons2:hover {
+
+	background-position: -5px -181px;
+}
+
+.buttons .buttons1 {
+
+	background-position: -5px -269px;
+}
+
+.buttons .buttons1:hover {
+
+	background-position: -5px -325px;
+}
+
+
+/*end header*/
+
+/*main*/
+
+
+ .block1 {
+ 	float: left;
+ 	width: 250px;
+ 	   border-radius: 5px; 
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px ;
+     -o-border-radius: 5px;
+     overflow: hidden;
+     background: #eff3f7;
+
+
+
+ }
+
+
+.main {
+	margin-bottom: 25px;
+}
+
+.main .main-item {
+	border-bottom: 2px solid #3ba8c0;
+	margin: 0;
+	overflow: hidden;
+}
+.main-item {
+	margin: 0;
+	 border-bottom: none;
+	 padding-left: 11px;
+	margin-top: -2px;
+
+}
+
+.current{
+	 background:#3ba8c0;
+	
+}
+
+.main-link {
+	
+	display: block;
+	color:#959aa8;
+    text-decoration: none;  
+    font-size: 20px;
+    margin-left: 16px;
+	padding: 20px 0px;
+
+  
+     
+} 
+.main-item.current .main-link {
+	color: #f9fafb;
+	font-size: 22px;
+
+}
+
+.main-item:last-child {
+	border-radius: 0 0 5px 5px; 
+     -webkit-border-radius: 0 0 5px 5px;
+     -moz-border-radius: 0 0 5px 5px ;
+     -o-border-radius: 0 0 5px 5px;
+     border-bottom: none;
+
+}
+
+.main .main-link:hover {
+
+color: #3ba8c0;
+    
+}
+
+.main-item.current .main-link:hover {
+	color: #f9fafb;
+}
+
+
+ /* как в видео
+.main .main-item.current{
+	 background:#3ba8c0;
+	 margin: 0;
+	 border-bottom: none;
+	 padding-left: 11px;
+	margin-top: -2px;
+} 
+.main .main-item.current .main-link {
+	color: #f9fafb;
+	font-size: 22px;
+}
+
+
+.main .main-item .main-link {
+	
+	display: block;
+	
+    color:#959aa8;
+      text-decoration: none;  
+    font-size: 20px;
+     font-family: 'fira_sansbook';   
+     margin-left: 16px;
+	padding: 20px 0px;
+
+  
+     
+} 
+
+
+
+.main .main-link:hover {
+
+color: #3ba8c0;
+    
+}
+
+
+
+*/
+
+
+
+
+
+
+ 
+ .main2 {
+ 	width: 250px;
+ 	height: 160px;
+ 	float: left;     
+     clear: both;
+     border-radius:  5px;
+     -webkit-border-radius:  5px;
+     -moz-border-radius:  5px;
+     -o-border-radius:  5px;
+     overflow: hidden;
+ }
+
+
+.kontakt {
+	height: 40px;
+	display: block;
+	padding: 0 28px;
+	font-size: 22px;
+	line-height: 40px;
+	color:#f9fafb;
+	background: #3ba8c0;
+	text-decoration: none;
+
+	 
+} 
+
+.kontakt1 {
+	height: 40px;
+	display: block;
+	padding: 0 60px;
+	
+	font-size: 17px;
+	line-height: 40px;
+	color:#f9fafb;
+	background: #41b9d4;
+	position: relative;
+	
+}
+
+.kontakt1:before {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 21px;
+    height: 16px;
+    top: 50%;
+    left: 30px;
+    margin-top: -0.625em; 
+
+}
+
+.kontakt1:before {
+
+background: url(../img/spritesheet.png) -5px -383px no-repeat; 
+}
+
+.kontakt2 {
+	height: 40px;
+	display: block;
+	padding: 0 60px;
+	font-size: 17px;
+	line-height: 40px;
+	color:#f9fafb;
+	background: #48cbe8;
+	position: relative;
+	
+} 
+
+.kontakt2:before {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 20px;
+    height: 21px;
+    top: 50%;
+    left: 30px;
+    margin-top: -0.625em; 
+
+}
+
+.kontakt2:before {
+
+background: url(../img/spritesheet.png) -5px -238px; no-repeat; 
+}
+
+.kontakt3 {
+	height: 40px;
+	display: block;
+	padding: 0 60px;
+	font-size: 17px;
+	line-height: 40px;
+	color:#f9fafb;
+	position: relative;
+	background: #51daf8;
+	 border-radius:  0px 0px 5px 5px;
+     -webkit-border-radius:  0px 0px 5px 5px;
+     -moz-border-radius:  0px 0px 5px 5px;
+     -o-border-radius:  0px 0px 5px 5px;
+}
+
+.kontakt3:before {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 30px;
+    margin-top: -0.625em; 
+
+}
+
+.kontakt3:before {
+
+background: url(../img/spritesheet.png) -5px -409px no-repeat; 
+}
+
+
+
+
+.kontakt1, .kontakt2, .kontakt3 {
+	text-decoration: none;
+}
+.kontakt1:hover, .kontakt2:hover, .kontakt3:hover {
+	text-decoration: underline;
+}
+
+/*конец main*/
+
+
+
+
+
+
+/*прибыть футер*/
+.wrapper {
+	position: relative;
+	min-height: 100%;
+	min-width: 970px;
+	height: auto!important;
+	overflow: hidden;
+
+}
+.wrapper:after {
+	content: "";
+	height: 80px;
+	display: block;
+}
+.page-footer {
+	min-width: 970px;
+	height: 80px;
+	margin-top: -80px;
+}
+
+
+
+/*футер*/
+
+
+
+
+
+
+.gradient {
+	margin: auto;
+	height: 3px;
+	width: auto;
+	background-image: -moz-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+}
+
+.page-footer .container {
+	padding-top: 25px;
+	position:relative;
+
+}
+
+.page-footer .copyright {
+	margin: 0px 180px;
+	padding-top: 7px;
+	text-align: center;
+
+}
+
+/*Логин*/
+.page-footer {
+background: #eff3f7;
+}
+.page-footer .lock {
+	position: absolute;
+	top:18px;
+	left:20px;
+	
+
+}
+
+.lock .lock-inner {
+	display: block;
+	height: 40px;
+	
+	line-height: 2.2;
+	color:#4a545d;
+	
+	background: url(../img/spritesheet.png) -5px -709px;
+    padding-left: 24px;
+}
+
+.lock .lock-inner:hover {
+	background: url(../img/spritesheet.png) -5px -667px;
+}
+/*логин конец*/
+/*футер конец*/
+
+
+/*блоки*/
+/*конец блоки*/
+
+
+
+
+
+/*чистка наследования*/
+.clearfix:before,
+.clearfix:after {
+ content: " "; 
+ display: table;
+}
+.clearfix:after {
+  clear: both; 
+}
+
+
+

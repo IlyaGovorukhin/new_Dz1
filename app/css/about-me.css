@@ -1,0 +1,162 @@
+
+
+
+ .block2 {
+
+    float: right;
+    width: 650px;
+    height: auto;
+ }
+
+.aboutbox{
+    background: #eff3f7;
+    border-radius: 4px;
+    margin-bottom: 26px;
+     width: 650px;
+    height: auto;
+    float: right;
+
+}
+.aboutbox-body{
+    padding-bottom: 40px;   
+}
+
+
+ .foto {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3ba8c0;
+    border-radius: 50% 50%;
+    margin-left: 55px;
+    margin-top: 18px;
+    background: url(../img/foto.jpg) 385px 845px;
+    overflow: hidden;
+    float: left;
+
+ }
+
+ .myinfo {
+    float: left;
+    margin-top: 20px;
+   
+    font-size: 17px;
+    list-style: none;
+    margin-left: 25px;
+    line-height: 35px;
+ }
+
+
+
+.naviki {
+    float: left;
+    
+    
+    font-size: 17px;
+    margin-left: 25px;
+}
+
+.box {
+   
+    float: right;
+    padding: 0 15px;
+    line-height: 22px;
+     background: linear-gradient(#38a1b9 50%, #2e8ca2 50%);
+     border-radius: 2px;
+     -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+     -o-border-radius: 2px;
+     color: #FFF;
+     margin: 0 4px;
+     font-size: 14px;
+    
+
+
+}
+
+ .line1 {
+    
+    font-weight: normal;
+    margin: 0 0 23px 0;
+   display: inline-block;
+    border-bottom: 2px solid #3ba8c0;
+    padding: 13px 22px;
+    font-size: 27px;
+    color: #3ba8c0;
+    
+
+    }
+
+ 
+
+
+ 
+.work2, .work3 {
+    margin-left: 55px;
+}
+
+
+
+.work2 li  {
+    font-size: 17px;
+    height: 50px;
+    line-height: 1px;
+    position: relative;
+    text-indent: 80px;
+    
+
+    
+    }
+
+.work2 li:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 35px;
+    width: 38px;
+    top: 50%;
+    left: 35px;
+    transform: translate(-50%,-50%);
+    margin-top: -0.625em; 
+    
+}
+
+.work2 li:before {
+
+background: url(../img/spritesheet.png) -5px -5px no-repeat; 
+}
+
+.work3 li  {
+    font-size: 17px;
+    height: 50px;
+    line-height: 1px;
+    position: relative;
+    text-indent: 80px;
+   
+
+    
+    }
+
+.work3 li:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 35px;
+    width: 41px;
+    top: 50%;
+    left: 35px;
+    transform: translate(-50%,-50%);
+    margin-top: -0.625em; 
+    }
+
+.work3 li:before {
+
+background: url(../img/spritesheet.png) -5px -45px no-repeat; 
+}
+
+.work3 li:last-child::before {
+
+background: url(../img/spritesheet.png) -5px -82px no-repeat; 
+}
+
+
+
