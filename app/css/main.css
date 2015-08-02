@@ -128,12 +128,12 @@ opacity: 0;
  .block1 {
  	float: left;
  	width: 250px;
- 	   border-radius: 5px; 
+ 	border-radius: 5px; 
      -webkit-border-radius: 5px;
      -moz-border-radius: 5px ;
      -o-border-radius: 5px;
-     overflow: hidden;
-     background: #eff3f7;
+      overflow: hidden;
+    
 
 
 
@@ -142,6 +142,11 @@ opacity: 0;
 
 .main {
 	margin-bottom: 25px;
+	 background: #eff3f7;
+	  border-radius: 5px; 
+	  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px ;
+     -o-border-radius: 5px;
 }
 
 .main .main-item {
