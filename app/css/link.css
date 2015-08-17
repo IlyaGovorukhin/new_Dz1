@@ -64,7 +64,16 @@
 	height: 40px;
 	border: 1px solid #48cbe8;
 	border-radius: 3px;
+	color: #48cbe8;
 }
+
+input[type="text"]::-webkit-input-placeholder {
+    color: #48cbe8; 
+   }
+
+textarea[type="text"]::-webkit-input-placeholder {
+    color: #48cbe8; 
+   }
 
 .mylink_input1 {
 	width: 400px;
@@ -152,3 +161,7 @@
 }
 
 
+.has-error {
+	background-color: #fad2d1;
+	border-color: #f97e76;
+}

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="fonts/fira.css">
     <!--bower.CSS-->
     <link rel="stylesheet" type="text/css" href="bower/normalize.css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="bower/qtip2/jquery.qtip.css">
     <!--my CSS-->
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/link.css">
@@ -79,22 +80,25 @@
 <div class="mylink">
   <div class="mylink_header"><div class="mylink_header_p"> У вас интересный проект? Напишите мне </div></div>
   <div class="mylink_body">
+  <form id="form_link" class="form" role="form">
       <div class="mylink_date clearfix">
-      <div class="mylink_name1"><p class="mylink_p">Имя</p><input class="mylink_input" type="text" placeholder="текст"
-> </div>
-      <div class="mylink_name2"><p class="mylink_p">Email</p><input class="mylink_input" type="text" placeholder="текст"></div>
+      <div class="mylink_name1"><p class="mylink_p">Имя</p><input class="mylink_input" type="text" placeholder="Как к вам обращаться" qtip-content="Вы не ввели имя" > </div>
+      <div class="mylink_name2"><p class="mylink_p">Email</p><input class="mylink_input" type="text" placeholder="Куда мне писать"  qtip-position="right" qtip-content="Вы не ввели email" ></div>
     </div>
-    <div class="mylink_date clearfix"><p class="mylink_p">Сообщение</p><textarea class="mylink_input1" type="text" placeholder="текст"></textarea></div>
+    <div class="mylink_date clearfix"><p class="mylink_p">Сообщение</p><textarea type="text" class="mylink_input1" name="message" rows="3" placeholder="Кратко в чем суть" qtip-content="Что вы от меня хотите?"></textarea></div>
     <div class="mylink_date clearfix">
       <p class="mylink_p">Введите код указанный на кратине</p>
       <div class="mylink_img"></div>
-      <input class="mylink_input2" type="text" placeholder="текст">
+      <input class="mylink_input2" placeholder="Введите код" type="text" qtip-position="right" qtip-content="Вы не ввели код">
     </div>
-      <div class="mylink_date clearfix">
-       <div class="button1">Отправить</div>
-       <div class="button2">Очистить</div>
-     </div>
+    <div class="mylink_date clearfix">
+      <button type="submit" class="button1">Отправить</button>
+      <button type="reset"  class="button2">Очистить</button>
+       </div>
 
+     </form>
+
+    
   </div>
 </div>
 
@@ -128,6 +132,9 @@
 </footer>
 <script src="bower/jquery/dist/jquery.js"></script>
 <script src="js/main.js"></script>
+<script src="js/contact_me.js"></script>
+<script src="js/validation.js"></script>
+<script type="text/javascript" src="bower/qtip2/jquery.qtip.js"></script>
   
 </body>
 </html>

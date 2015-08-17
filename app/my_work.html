@@ -14,9 +14,11 @@
     <link rel="stylesheet" href="fonts/fira.css">
     <!--bower.CSS-->
     <link rel="stylesheet" type="text/css" href="bower/normalize.css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="bower/qtip2/jquery.qtip.css">
     <!--my CSS-->
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/my_work.css">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
       <!--modernizr-->
     <script src="bower/modernizer/modernizr.js"></script>
 </head>
@@ -25,8 +27,8 @@
 <p class="browsehappy">У вас устаревший браузер, пожалуйста, обновите его - <a href="http://browsehappy.com">ОБНОВИТЬ</a>
 <![endif]-->
 <div class="wrapper">
-    <div class="main-content">
-        <header class="page-header">
+<div class="main-content">
+  <header class="page-header">
               <div class="container-big">
                    <a href="index.html" id="poster">
                        <span class="header-logo-text">Сайт порфолио</span>
@@ -42,12 +44,9 @@
               </div>
               <div class="gradient"></div>
           </header> 
+<div class="container">
 
-
-
-          <div class="container">
-
-          <div class="block1">
+ <div class="block1">
 
 
         <div class="main">
@@ -100,7 +99,7 @@
     </li>
 
     <li class="mywork_site">
-      <div class="mywork_site_img1"><p class="mywork_site_p">Добавить проект</p></div>
+      <a id="mywork_site_img1" href="#"><p class="mywork_site_p">Добавить проект</p></a>
     </li>
   </ul>
   
@@ -109,12 +108,25 @@
 
 
 
-
-
-
 </div>
 </div>
 </div>
+
+
+
+<div id="popap">
+  <div class="header_popap"> <div class="b-close">X</div></div>
+  <div class="body_popap">
+  <form id="form_add" class="form" role="form">
+    <div class="server-m f-e"></div>
+    <div class="server-m f-s"></div>
+ <input id="popap_input" name="projectName" type="text" placeholder="Введите название" qtip-content="Вы не ввели название" class="input">
+  <button type="submit" id="button_add">Добавить</button>
+   
+ </form>
+  </div>
+</div>
+
 
 
 
@@ -133,6 +145,11 @@
 </footer>
 <script src="bower/jquery/dist/jquery.js"></script>
 <script src="js/main.js"></script>
+<script type="text/javascript" src="js/add_project.js"></script>
+<script type="text/javascript" src="bower/bpopup/jquery.bpopup.js"></script>
+<script type="text/javascript" src="bower/qtip2/jquery.qtip.js"></script>
+<script type="text/javascript" src+"js/validation.js"></script>
+
   
 </body>
 </html>

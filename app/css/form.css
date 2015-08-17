@@ -1,0 +1,78 @@
+#popap {
+    height: 495px;
+    width: 362px;
+    display: none;
+    
+}
+
+.b-close {
+    text-align: center;
+    padding: 0px;
+    height: 17px;
+    width: 17px;
+    border: 2px solid #eff3f7;
+    border-radius: 50% 50%;
+    color: #eff3f7;
+    background: #48cbe8;
+    cursor: pointer;
+
+}
+
+.header_popap {
+    width: 362px;
+    height: 55px;
+    background: #48cbe8;
+}
+
+.body_popap{
+    width: 362px;
+    height: 440px;
+    background:#eff3f7; 
+}
+
+#button_add {
+   float: left;
+   cursor: pointer;
+   background: #48cbe8;
+   color: #f9fafb;
+   width: 137px;
+   height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    border-bottom: 3px solid #3ba8c0;
+    
+}
+
+#button_add:active {
+    background: #3ba8c0;
+    margin-top: 2px;
+    height: 28px;
+}
+
+#popap_input {
+    float: left;
+    width: 357px;
+}
+
+
+.server-m{
+    border-radius: 4px;
+    border: 1px solid;
+    font-size: 12px;
+    width: 100%;
+    padding: 6px 12px;
+    margin-bottom: 6px; 
+    display: none;
+    box-sizing: border-box; /*делает строгий маштаб у блока, не смотрит на пединги, скажем если высота 300 то она не будет изменятся из-за пединга*/
+}
+.f-e{ 
+    background-color: #fad2d1;
+    border-color: #f97e76;
+    color: #f97e76; 
+}
+.f-s{
+    background-color: #b8e1ce;
+    border-color: #49bb7b;
+    color: #49bb7b;
