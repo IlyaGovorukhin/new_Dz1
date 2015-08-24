@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/my_work.css">
     <link rel="stylesheet" type="text/css" href="css/form.css">
+    <link rel="stylesheet" type="text/css" href="css/link.css">
       <!--modernizr-->
     <script src="bower/modernizer/modernizr.js"></script>
 </head>
@@ -82,7 +83,7 @@
       <div class="mywork_site_img my_img1"><div class="mywork_site_wr"><p class="mywork_site_ico">www.site.ru</p></div></div>
 
       <a class="mywork_site_site" href="#">www.site.ru</a>
-      <div class="mywork_site_text">Информация о проекте 1 превью 2 строки....</div>
+      <div class="mywork_site_text">Информация о проекте 1 превью 2 строки...Информация о проекте 1 превью 2 строки...Информация о проекте 1 превью 2 строки...Информация о проекте 1 превью 2 строки...Информация о проекте 1 превью 2 строки...Информация о проекте 1 превью 2 строки...Информация о проекте 1 превью 2 строки...</div>
     </li>
     <li class="mywork_site">
       <div class="mywork_site_img my_img2"><div class="mywork_site_wr"><p class="mywork_site_ico">www.site.ru</p></div></div>
@@ -115,14 +116,20 @@
 
 
 <div id="popap">
-  <div class="header_popap"> <div class="b-close">X</div></div>
+  <div class="header_popap"> <div class="header_popap_text">Добавление проекта</div> <div class="b-close">X</div></div>
   <div class="body_popap">
   <form id="form_add" class="form" role="form">
     <div class="server-m f-e"></div>
     <div class="server-m f-s"></div>
- <input id="popap_input" name="projectName" type="text" placeholder="Введите название" qtip-content="Вы не ввели название" class="input">
+    <div class="popapDiv clearfix"><p class="popap_p">Название проекта</p><input id="popap_input" name="projectName" type="text" placeholder="Введите название" qtip-content="Вы не ввели название" class="input"></div>
+    <div class="popapDiv clearfix"><p class="popap_p">Картинка проекта</p><input id="popap_input2" name="projectName" type="text" placeholder="Загрузка картинки" qtip-content="Изображение" class="input">
+      <img class="popap_img" src="img/open.png" height="44" width="52">
+    </div>
+    <div class="popapDiv clearfix"><p class="popap_p">URL проекта</p><input id="popap_input" name="projectName" type="text" placeholder="Добавте ссылку" qtip-content="Ссылка проекта" class="input"> </div>
+    <div class="popapDiv clearfix"><p class="popap_p">Описание</p><textarea type="text" class="popap_textarea" name="message" rows="3" placeholder="Пара слов о проекте" qtip-content="Описание проекта"></textarea></div>
+
   <button type="submit" id="button_add">Добавить</button>
-   
+    
  </form>
   </div>
 </div>
@@ -148,7 +155,7 @@
 <script type="text/javascript" src="js/add_project.js"></script>
 <script type="text/javascript" src="bower/bpopup/jquery.bpopup.js"></script>
 <script type="text/javascript" src="bower/qtip2/jquery.qtip.js"></script>
-<script type="text/javascript" src+"js/validation.js"></script>
+<script type="text/javascript" src="js/validation.js"></script>
 
   
 </body>

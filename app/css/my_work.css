@@ -132,6 +132,8 @@ color: #3ba8c0;
 
 .mywork_site_text {
     color: #959aa8;
+    height: 40px;
+    overflow: auto;
 }
 
 

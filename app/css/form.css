@@ -1,8 +1,11 @@
 #popap {
-    height: 495px;
+    height: 550px;
     width: 362px;
     display: none;
+    border-radius: 4px;
     
+   
+   
 }
 
 .b-close {
@@ -15,48 +18,109 @@
     color: #eff3f7;
     background: #48cbe8;
     cursor: pointer;
+    float: right;
 
 }
+
+.header_popap_text {
+    float: left;
+    font-size: 24px;
+    color: #f9fafb;
+
+}
+
 
 .header_popap {
     width: 362px;
-    height: 55px;
+    height: 44px;
     background: #48cbe8;
+    border-bottom: 9px solid #67dffa;
+   padding: 6px 6px 12px 6px;
+    box-sizing: border-box;
+    border-radius:  4px 4px 0 0;
+
+    
 }
 
+
+
+
 .body_popap{
+   
     width: 362px;
-    height: 440px;
-    background:#eff3f7; 
+    height: 450px;
+    background:#eff3f7;
+    border-radius: 0 0 4px 4px;
+   
+
+
+
 }
 
 #button_add {
-   float: left;
+   margin: 0 110px;
    cursor: pointer;
    background: #48cbe8;
    color: #f9fafb;
-   width: 137px;
+   width: 140px;
    height: 30px;
     font-size: 20px;
     border-radius: 5px;
     text-align: center;
-    line-height: 30px;
-    border-bottom: 3px solid #3ba8c0;
+    line-height: 20px;
+    outline: none;
+   
     
 }
 
 #button_add:active {
     background: #3ba8c0;
-    margin-top: 2px;
-    height: 28px;
+    
+  
 }
 
 #popap_input {
     float: left;
-    width: 357px;
+     width: 320px;
+    height: 40px;
+    border: 1px solid #48cbe8;
+    border-radius: 3px;
+    color: #48cbe8;
 }
 
+#popap_input2 {
+    float: left;
+     width: 266px;
+    height: 40px;
+    border: 1px solid #48cbe8;
+    border-radius: 3px 0 0 3px;
+    color: #48cbe8;
+}
 
+.popap_textarea {
+    width: 320px;
+    height: 111px;
+    border: 1px solid #48cbe8;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.popap_p {
+    
+    font-size: 20px;
+    color: #959aa8;
+   margin: 6px 0px;
+    padding: 0;
+}
+
+.popapDiv {
+    margin: 0px 21px;
+    
+}
+
+.popap_img {
+    float: right;
+}
 .server-m{
     border-radius: 4px;
     border: 1px solid;
@@ -76,3 +140,15 @@
     background-color: #b8e1ce;
     border-color: #49bb7b;
     color: #49bb7b;
+}
+
+.clearfix:before,
+.clearfix:after {
+ content: " "; 
+ display: table;
+}
+.clearfix:after {
+  clear: both; 
+}
+
+

@@ -25,12 +25,15 @@ var myMod = (function (){
           onClose: function() { // в документации попап есть
           form.find('.f-e').text('').hide(); // hide show - методы джиквери
           form.find('.f-s').text('').hide();
+          form.trigger('reset');
+          $('.body_popap').css('height' , '450px');  
         }
     	});
 
     };
 
     var _addProject = function (ev) {
+
         console.log('добавление проекта');
         ev.preventDefault(); // отменяет стандартное поведение
         
@@ -40,8 +43,8 @@ var myMod = (function (){
        MyserverAnswer =  _newAjax(form, url);
        
 
-       
-      
+       // проверяем был ли запрос на сервер
+      if(MyserverAnswer) { 
        MyserverAnswer.done(function(answer) { 
        	console.log(answer);// ввыводим ответ от сервера
        var successBox = form.find('.f-s'),
@@ -49,20 +52,22 @@ var myMod = (function (){
 
           if(answer.status === 'OK'){            
             errorBox.hide();
-            successBox.text(answer.text).show();           
+            successBox.text(answer.text).show();
+            $('.body_popap').css('height' , '480px');           
           }else{
             successBox.hide();
             errorBox.text(answer.text).show();
         }
 
-        })
-       .fail(function() {
-       	console.log("error!!");
-       })
-      };
+        });
+     };
+   }
+
+
 
 
     var _newAjax = function(form, url) {
+       if (!validation.validationForm(form)) return false;
     data = form.serialize(); //Упорядочивает набор элементов ввода  input в строку данных.
 
     var result =  $.ajax({
