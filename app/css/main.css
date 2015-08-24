@@ -13,7 +13,7 @@ ul, li {
   list-style: none;
   margin: 0;
   padding: 0;
-  
+
 }
 
 
@@ -52,10 +52,10 @@ ul, li {
 }
 
 
-#poster {
+.poster {
 	width: 250px;
 	height: 100px;
- background: url(../img/logo.jpg) center no-repeat;
+ 
  background-size: 70%;
  margin-top: 20px;
  float: left;
@@ -87,7 +87,7 @@ opacity: 0;
 
 .buttons .buttons4:hover {
 
-	background-position: -5px -610px;
+	background-position: -5px -609px;
 
 }
 .buttons .buttons3 {
@@ -97,7 +97,7 @@ opacity: 0;
 
 .buttons .buttons3:hover {
 
-	background-position: -5px -496px;
+	background-position: -5px -495px;
 }
 
 .buttons .buttons2 {
@@ -107,7 +107,7 @@ opacity: 0;
 
 .buttons .buttons2:hover {
 
-	background-position: -5px -181px;
+	background-position: -5px -180px;
 }
 
 .buttons .buttons1 {
@@ -117,7 +117,7 @@ opacity: 0;
 
 .buttons .buttons1:hover {
 
-	background-position: -5px -325px;
+	background-position: -5px -324px;
 }
 
 

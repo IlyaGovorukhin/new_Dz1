@@ -68,18 +68,7 @@ background: url(http://lorempixel.com/400/300/sports);
 background-size: contain;
 }
 
-.my_img2 {
-background: url(http://lorempixel.com/400/300/sports);
-background-size: contain;
-}
-.my_img3 {
-background: url(http://lorempixel.com/400/300/sports);
-background-size: contain;
-}
-.my_img4 {
-background: url(http://lorempixel.com/400/300/sports);
-background-size: contain;
-}
+
 
 
 
@@ -117,7 +106,8 @@ top:50%;
     border-radius: 5px;
     font-size: 12px;
      text-transform: uppercase;
-   
+    
+
     
 }
 
