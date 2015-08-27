@@ -8,6 +8,30 @@
    
 }
 
+
+#popap_input {
+    float: left;
+     width: 320px;
+    height: 40px;
+    
+}
+
+.input {
+   height: 40px;
+   
+    color: #48cbe8;
+    border: 1px solid #48cbe8;
+    border-radius: 3px;
+    color: #48cbe8;
+    background: #FFF;
+     -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 270px;
+
+}
+
+
 .b-close {
     text-align: center;
     padding: 0px;
@@ -113,13 +137,42 @@
     padding: 0;
 }
 
+ .fileupload-wrapper .popap_p {
+    
+    font-size: 20px;
+    color: #959aa8;
+   margin: 6px 0px;
+    padding: 0;
+}
+
 .popapDiv {
     margin: 0px 21px;
     
 }
 
-.popap_img {
-    float: right;
+.fileupload-wrapper {
+  width: 100%;
+  position: relative;
+}
+.fileupload-lable{
+    display: block;
+  width: 52px;
+  height: 40px;
+    position: absolute;
+  right: 0;
+    background: url(../img/open.png)  no-repeat;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+.fileupload{ 
+    border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 .server-m{
     border-radius: 4px;

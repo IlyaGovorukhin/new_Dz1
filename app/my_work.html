@@ -122,9 +122,16 @@
     <div class="server-m f-e"></div>
     <div class="server-m f-s"></div>
     <div class="popapDiv clearfix"><p class="popap_p">Название проекта</p><input id="popap_input" name="projectName" type="text" placeholder="Введите название" qtip-content="Вы не ввели название" class="input"></div>
-    <div class="popapDiv clearfix"><p class="popap_p">Картинка проекта</p><input id="popap_input2" name="projectName" type="text" placeholder="Загрузка картинки" qtip-content="Изображение" class="input">
-      <img class="popap_img" src="img/open.png" height="44" width="52">
-    </div>
+     <div class="popapDiv clearfix">
+    <div class="fileupload-wrapper" id="uploadfile">
+              <p class="popap_p">Картинка проекта</p>
+              <label class="fileupload-lable">
+                <input id="fileupload" class="fileupload" type="file" name="files[]">
+                <input id="fileurl" type="hidden" name="fileurl">
+              </label>
+              <input id="filename" type="text" class="input" name="filename" placeholder="Загрузите изображение" disabled qtip-content="Вы не выбрали изображение" qtip-position="left">
+            </div>
+            </div>
     <div class="popapDiv clearfix"><p class="popap_p">URL проекта</p><input id="popap_input" name="projectName" type="text" placeholder="Добавте ссылку" qtip-content="Ссылка проекта" class="input"> </div>
     <div class="popapDiv clearfix"><p class="popap_p">Описание</p><textarea type="text" class="popap_textarea" name="message" rows="3" placeholder="Пара слов о проекте" qtip-content="Описание проекта"></textarea></div>
 

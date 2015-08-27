@@ -10,8 +10,18 @@ var myMod = (function (){
     		console.log('Привет! я прослушка событий');
     	$('#mywork_site_img1').on('click', _showModule); // открыть модальное окно
         $('#form_add').on('submit', _addProject); // добавление проекта
-
+     $('#fileupload').on('change', _changefileUpload);
     };
+
+var _changefileUpload = function (){
+    var input = $(this), // инпут type="file"
+        name = input[0].files[0].name; // имя загруженного файла
+    $('#filename')
+      .val(name) // 
+      .trigger('hideTooltip')
+      .removeClass('has-error'); 
+  };
+
 
 
     var _showModule = function(ev){
