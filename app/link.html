@@ -21,6 +21,11 @@
 
       <!--modernizr-->
     <script src="bower/modernizer/modernizr.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <!--капча-->
+
+
 </head>
 <body>
 <!--[if lt IE 7]>
@@ -36,7 +41,7 @@
  
         <ul class="buttons">
            <li class="buttons1"><a href="https://github.com/IlyaGovorukhin"></a></li>
-            <li class="buttons2"><a href="https://www.facebook.com/"></a></li>
+            <li class="buttons2"><a href="https://www.facebook.com/profile.php?id=100008316521627"></a></li>
             <li class="buttons3"><a href="https://twitter.com/"></a></li>
             <li class="buttons4"><a href="https://vk.com/igovorukhin"></a></li>
         </ul>
@@ -80,16 +85,17 @@
 <div class="mylink">
   <div class="mylink_header"><div class="mylink_header_p"> У вас интересный проект? Напишите мне </div></div>
   <div class="mylink_body">
-  <form id="form_link" class="form" role="form">
+  <form id="form_link" class="form" role="form"  action="?" method="POST">
       <div class="mylink_date clearfix">
-      <div class="mylink_name1"><p class="mylink_p">Имя</p><input class="mylink_input" type="text" placeholder="Как к вам обращаться" qtip-content="Вы не ввели имя" > </div>
-      <div class="mylink_name2"><p class="mylink_p">Email</p><input class="mylink_input" type="text" placeholder="Куда мне писать"  qtip-position="right" qtip-content="Вы не ввели email" ></div>
-    </div>
-    <div class="mylink_date clearfix"><p class="mylink_p">Сообщение</p><textarea type="text" class="mylink_input1" name="message" rows="3" placeholder="Кратко в чем суть" qtip-content="Что вы от меня хотите?"></textarea></div>
+      <div class="mylink_name1"><p class="mylink_p">Имя</p><input id="name" value="" class="mylink_input" type="text" placeholder="Как к вам обращаться" qtip-content="Вы не ввели имя" > </div>
+      <div class="mylink_name2"><p class="mylink_p">Email</p><input id="email" value="" class="mylink_input" type="text" placeholder="Куда мне писать"  qtip-position="right" qtip-content="Вы не ввели email" ></div>
+      <div align="center" id='loadBar'></div>
+      </div>
+    <div class="mylink_date clearfix"><p class="mylink_p">Сообщение</p><textarea type="text" id="texarial" valua="" class="mylink_input1" name="message" rows="3" placeholder="Кратко в чем суть" qtip-content="Что вы от меня хотите?"></textarea></div>
     <div class="mylink_date clearfix">
-      <p class="mylink_p">Введите код указанный на кратине</p>
-      <div class="mylink_img"></div>
-      <input class="mylink_input2" placeholder="Введите код" type="text" qtip-position="right" qtip-content="Вы не ввели код">
+      <p class="mylink_p">Потвердите что вы не робот</p>
+        <div class="g-recaptcha" data-sitekey="6Lf2Yg0TAAAAABA8AP00F4sF9A2i--Mz12NepFtM"></div>
+
     </div>
     <div class="mylink_date clearfix">
       <button type="submit" class="button1">Отправить</button>

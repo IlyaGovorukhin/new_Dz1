@@ -87,17 +87,34 @@ opacity: 0;
 
 .buttons .buttons4:hover {
 
-	background-position: -5px -609px;
+	background-position: -5px -610px;
+	-webkit-transform: rotateZ(-360deg);
+	-ms-transform: rotateZ(-360deg);
+	transform: rotateZ(-360deg);
+	transition:transform .3s linear;
+	-moz-transition:transform .3s linear;
+	-webkit-transition:transform .3s linear;
+	-o-transition:transform .3s linear;
+
+
 
 }
 .buttons .buttons3 {
 
 	background-position: -5px -439px;
+
 }
 
 .buttons .buttons3:hover {
 
-	background-position: -5px -495px;
+	background-position: -5px -496px;
+	-webkit-transform: rotateZ(-360deg);
+	-ms-transform: rotateZ(-360deg);
+	transform: rotateZ(-360deg);
+	transition:transform .3s linear;
+	-moz-transition:transform .3s linear;
+	-webkit-transition:transform .3s linear;
+	-o-transition:transform .3s linear;
 }
 
 .buttons .buttons2 {
@@ -107,7 +124,14 @@ opacity: 0;
 
 .buttons .buttons2:hover {
 
-	background-position: -5px -180px;
+	background-position: -5px -181px;
+	-webkit-transform: rotateZ(-360deg);
+	-ms-transform: rotateZ(-360deg);
+	transform: rotateZ(-360deg);
+	transition:transform .3s linear;
+	-moz-transition:transform .3s linear;
+	-webkit-transition:transform .3s linear;
+	-o-transition:transform .3s linear;
 }
 
 .buttons .buttons1 {
@@ -117,7 +141,14 @@ opacity: 0;
 
 .buttons .buttons1:hover {
 
-	background-position: -5px -324px;
+	background-position: -5px -326px;
+	-webkit-transform: rotateZ(-360deg);
+	-ms-transform: rotateZ(-360deg);
+	transform: rotateZ(-360deg);
+	transition:transform .3s linear;
+	-moz-transition:transform .3s linear;
+	-webkit-transition:transform .3s linear;
+	-o-transition:transform .3s linear;
 }
 
 
@@ -335,7 +366,7 @@ background: url(../img/spritesheet.png) -5px -383px no-repeat;
 
 .kontakt2:before {
 
-background: url(../img/spritesheet.png) -5px -238px; no-repeat; 
+background: url(../img/spritesheet.png) -5px -238px no-repeat;
 }
 
 .kontakt3 {

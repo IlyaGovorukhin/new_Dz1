@@ -10,7 +10,7 @@
  .mywork_site {
         text-align: center;
         width: 183px;
-        height: 200px;
+        height: 230px;
         display: inline-block;
         margin: 15px;
         vertical-align: top;
@@ -64,16 +64,34 @@
 
 
 .my_img1 {
-background: url(http://lorempixel.com/400/300/sports);
+background: url('../img/2.png')no-repeat;
 background-size: contain;
 }
 
+.my_img2 {
+    background:  url('../img/4.png') no-repeat;
+    background-size: cover;
+}
 
+.my_img3 {
+     background: url('../img/3.jpg') no-repeat;
+    background-size: cover;
+ }
 
+.my_img4 {
+    background:  url('../img/1.png') no-repeat;
+    background-size: contain;
+}
 
+.my_img5 {
+    background:  url('../img/cars.jpg') no-repeat;
+    background-size: cover;
+
+}
 
 .mywork_site_ico {
     display: none;
+    text-decoration: none;
 
 }
 
@@ -86,6 +104,15 @@ background-size: contain;
     width: 177px;
     height: 123px;
     opacity: .6;
+    transition:background .3s linear;
+    -moz-transition:background .3s linear;
+    -webkit-transition:background .3s linear;
+    -o-transition:background .3s linear;
+
+    transition:opacity .3s linear;
+    -moz-transition:opacity .3s linear;
+    -webkit-transition:opacity .3s linear;
+    -o-transition:opacity .3s linear;
 
     
     
@@ -106,6 +133,9 @@ top:50%;
     border-radius: 5px;
     font-size: 12px;
      text-transform: uppercase;
+     max-width: 180px;
+
+
     
 
     
@@ -118,12 +148,36 @@ top:50%;
 .mywork_site_site {
 text-decoration: none;
 color: #3ba8c0;
+  max-width: 180px;
+
 }
+
+ .mywork_site_img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+
+     transition:transform .3s linear;
+     -moz-transition:transform .3s linear;
+     -webkit-transition:transform .3s linear;
+     -o-transition:transform .3s linear;
+}
+
 
 .mywork_site_text {
     color: #959aa8;
-    height: 40px;
-    overflow: auto;
+    height: 90px;
+
 }
+
+.a_mynerwork {
+    text-decoration: none;
+    color: #3ba8c0;
+    width: auto;
+    font-size: 13px;
+
+}
+
+
 
 

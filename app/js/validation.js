@@ -19,7 +19,8 @@ var validation = (function (){
     var _clearForm = function (form) {
         var form = $(this);
         form.find('.input, .textarea').trigger('hide');
-        form.find('.has-error').removeClass('has-error');       
+        form.find('.has-error').removeClass('has-error');
+        form.find('#loadBar').hide;
     };
 
 

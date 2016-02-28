@@ -112,11 +112,11 @@ textarea[type="text"]::-webkit-input-placeholder {
     font-size: 20px;
     border-radius: 5px;
     text-align: center;
-    
+
     border-bottom: 3px solid #3ba8c0;
     line-height: 20px;
     outline: none;
-   
+
 }
 
 .button1:active {
